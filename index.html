@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sshEditor</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-javascript.min.js"></script>
     <script
       src="https://kit.fontawesome.com/057ecf4846.js"
       crossorigin="anonymous"
@@ -14,11 +18,11 @@
     <div class="main-container">
       <div class="code-container">
         <label><i class="fa-brands fa-html5"> HTML</i></label>
-        <textarea id="html-code" onkeyup="insert()"></textarea>
+        <pre><code id="html-code" class="language-html" contenteditable="true"></code></pre>
         <label><i class="fa-brands fa-css3-alt"> CSS</i></label>
-        <textarea id="css-code"></textarea>
+        <pre><code id="css-code" class="language-css" contenteditable="true"></code></pre>
         <label><i class="fa-brands fa-js"> JavaScript</i></label>
-        <textarea id="javascript-code"></textarea>
+        <pre><code id="javascript-code" class="language-javascript" contenteditable="true"></code></pre>
       </div>
       <div class="output-container">
         <iframe id="output"></iframe>
