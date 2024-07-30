@@ -3,4 +3,6 @@ function insert() {
   let css_code = document.getElementById("css-code").value;
   let cssl_code = document.getElementById("javascript-code").value;
   let output = document.getElementById("output");
+
+  output.contentDocument.body.innerHTML = html_code;
 }
