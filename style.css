@@ -42,3 +42,14 @@ iframe {
   outline: 0;
   background: #ffffff;
 }
+
+label i{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+label {
+	display: flex;
+	align-items: center;
+	background: #000000
+}
