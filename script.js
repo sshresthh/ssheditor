@@ -4,5 +4,12 @@ function insert() {
   let javascript_code = document.getElementById("javascript-code").value;
   let output = document.getElementById("output");
 
-  output.contentDocument.body.innerHTML = html_code + "<style>" + css_code + "</style>" + "<script>" + javascript_code + "</script>";
+  output.contentDocument.body.innerHTML =
+    html_code +
+    "<style>" +
+    css_code +
+    "</style>" +
+    "<script>" +
+    javascript_code +
+    "</script>";
 }
